@@ -10,7 +10,7 @@ renv::restore() # install required packages
 ```
 
 ## Repo Structure
-
+```
 |   .gitignore
 |   event_connectedness.Rproj
 |   README.md
@@ -48,3 +48,4 @@ renv::restore() # install required packages
         eikon_data.R - script for loading OLHC and intraday data from Refinitive Eikon (includes API key)
         events.R - bootstrap-after-bootstrap code for estimating the effect of events on connectedness
         ingest_data.R - data processing, creates interim/events.Rdata and interim/vol_oil.Rdata
+```
